@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Client } from '../entities/client';
-import { MiaBaseCrudHttpService } from '@agencycoda/mia-core';
+import { MiaBaseCrudHttpService, MiaPagination, MiaQuery } from '@agencycoda/mia-core';
 import { HttpClient } from '@angular/common/http';
 import { environment } from 'src/environments/environment';
 

@@ -9,24 +9,32 @@ import { environment } from 'src/environments/environment';
 import { HTTP_INTERCEPTORS } from '@angular/common/http';
 import { MiaCoreModule, MIA_GOOGLE_STORAGE_PROVIDER } from '@agencycoda/mia-core';
 import { MiaTableModule } from '@agencycoda/mia-table';
+
 import { MiaFormModule } from '@agencycoda/mia-form';
 import { MiaLoadingModule } from '@agencycoda/mia-loading';
+import { ModalConfirmComponent } from './modal-confirm/modal-confirm.component';
+/** ANGULAR MATERIAL */
+import { MatButtonModule } from '@angular/material/button';
+import { MatButtonToggleModule } from '@angular/material/button-toggle';
+import { MatToolbarModule } from '@angular/material/toolbar'; 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ModalConfirmComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-
-    // Agency Coda Modules
     MiaCoreModule,
     MiaAuthModule,
     MiaTableModule,
-    MiaLoadingModule,
     MiaFormModule,
+    MatButtonModule,
+    MatButtonModule,
+    MatButtonToggleModule,
+    MatToolbarModule,
   ],
   providers: [
     { 

@@ -1,0 +1,10 @@
+Hola!
+Les entrego el test que no tenia una dificultad evidente pero no habia trabajado con Angular Material asique estuve investigando en la documentacion.
+Tiene detalles de visualizacion como centrar el contenido del modal de confirmacion, pero no queria demorar mas tiempo.
+
+Utilice las librerias como indicaba el archivo.
+
+El trabajo me llevo alrededor de 12hs.
+Creo que no es un trabajo que demore mas de 4 hs pero no habia trabajado con Angular Material y quise aprovechar para aprender y probar cosas.
+
+Saludos!!
